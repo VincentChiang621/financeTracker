@@ -18,12 +18,12 @@ function App() {
       <div className="transactions">
         <div className="transaction">
           <div className="left">
-            <div className='name'>lunch with David</div>
-            <div className='description'>lobster lunch</div>
+            <div className='name'>Job</div>
+            <div className='description'>i got a job</div>
           </div>
 
           <div className="right">
-            <div className='price'>$20</div>
+            <div className='price red'>$20</div>
             <div className='datetime'>2023-6-3 15:55</div>
           </div>
         </div>
@@ -35,7 +35,7 @@ function App() {
           </div>
 
           <div className="right">
-            <div className='price'>$20</div>
+            <div className='price green'>-$20</div>
             <div className='datetime'>2023-6-3 15:55</div>
           </div>
         </div>
